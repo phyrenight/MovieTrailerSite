@@ -1,0 +1,56 @@
+html, body {
+  overflow: hidden;
+  height: 100%; }
+
+header {
+  height: 10%;
+  background: linear-gradient(black, white); }
+  header h1 {
+    font-family: "Courgette", "cursive";
+    padding: 18px;
+    text-align: center;
+    margin: 0%; }
+    header h1 .red {
+      color: red; }
+
+main {
+  text-align: center;
+  height: 85%;
+  overflow: hidden; }
+  main div.movie-container {
+    margin: auto;
+    background-image: url("../images/uglytruthbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 35px 0px;
+    height: 100%; }
+  main iframe {
+    position: relative;
+    top: 25%; }
+
+footer {
+  height: 5%;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  background: linear-gradient(to top, black, white); }
+  footer ul {
+    padding: 0%;
+    list-style: none;
+    margin: 0%; }
+    footer ul li {
+      display: inline-block; }
+
+@media (min-width: 400px) {
+  main div.movie-container {
+    background-position: center; } }
+@media (min-width: 700px) {
+  h1 {
+    font-size: 3em; }
+
+  main iframe {
+    width: 600px;
+    height: 300px; } }
+
+/*# sourceMappingURL=styles.css.map */
